@@ -1,0 +1,171 @@
+body {
+    background-color: rgba(255, 119, 0, 0.707)
+}
+
+.titulo {
+    background-color: #828282cd;
+    /* Fondo gris claro */
+    border: 1px solid black;
+    /* Borde negro */
+    border-radius: 10px;
+    /* Radio de borde redondeado */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Tipo de letra */
+    font-size: 20px;
+    /* Tamaño de la fuente */
+    color: rgb(34, 0, 255);
+    /* Color de las letras dorado */
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    border: solid 3px black;
+    width: 800px;
+    /* Ancho de la tabla */
+    height: 700px;
+    /* Alto de la tabla */
+    background-color: rgba(180, 180, 180, 0.929);
+
+}
+
+td {
+    width: 50px;
+    /* Ancho de las celdas */
+    height: 50px;
+    /* Alto de las celdas */
+    text-align: center;
+    border: 1px solid black;
+    /* Borde negro */
+}
+
+.marron {
+    background-color: #8B4513;
+    /* Marrón */
+}
+
+.amarillo-palido {
+    background-color: #FFFFE0;
+    /* Amarillo pálido */
+}
+
+
+.numero {
+    font-size: 0.8em;
+}
+
+.serpiente1 {
+    width: 360px;
+    ;
+    position: absolute;
+    top: 46%;
+    /* Ajusta esta posición según sea necesario */
+    left: 55%;
+    /* Ajusta esta posición según sea necesario */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima del tablero */
+}
+
+.serpiente2 {
+    width: 360px;
+    ;
+    position: absolute;
+    top: 46%;
+    /* Ajusta esta posición según sea necesario */
+    left: 55%;
+    /* Ajusta esta posición según sea necesario */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima del tablero */
+}
+
+.serpiente3 {
+    width: 360px;
+    ;
+    position: absolute;
+    top: 46%;
+    /* Ajusta esta posición según sea necesario */
+    left: 55%;
+    /* Ajusta esta posición según sea necesario */
+    z-index: 1;
+    /* Asegura que la imagen esté por encima del tablero */
+}
+
+.ficha {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ficha1 {
+    background-color: blue;
+    /* Color de la ficha del jugador 1 */
+}
+
+.ficha2 {
+    background-color: red;
+    /* Color de la ficha del jugador 2 */
+}
+
+.serpiente1 {
+    width: 430px;;
+    position: absolute;
+    top: 350px; /* Ajusta esta posición según sea necesario */
+    left: 870px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
+
+.serpiente2 {
+    width: 230px;
+    position: absolute;
+    top: 800px; /* Ajusta esta posición según sea necesario */
+    left: 1120px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
+.serpiente3 {
+    width: 200px;
+    position: absolute;
+    top: 520px; /* Ajusta esta posición según sea necesario */
+    left: 1550px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
+.escalera1 {
+    width: 200px;
+    position: absolute;
+    top: 520px; /* Ajusta esta posición según sea necesario */
+    left: 1550px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
+.escalera2 {
+    width: 200px;
+    position: absolute;
+    top: 520px; /* Ajusta esta posición según sea necesario */
+    left: 1550px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
+.escalera1 {
+    width: 160px;
+    position: absolute;
+    top: 900px; /* Ajusta esta posición según sea necesario */
+    left: 1600px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
+.escalera2 {
+    width: 160px;
+    position: absolute;
+    top: 400px; /* Ajusta esta posición según sea necesario */
+    left: 1350px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
+.escalera3 {
+    width: 160px;
+    position: absolute;
+    top: 600px; /* Ajusta esta posición según sea necesario */
+    left: 1200px; /* Ajusta esta posición según sea necesario */
+    z-index: 1; /* Asegura que la imagen esté por encima del tablero */
+}
